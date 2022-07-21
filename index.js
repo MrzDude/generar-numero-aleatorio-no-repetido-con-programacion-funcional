@@ -7,3 +7,4 @@ const GetNonRepeatedRandomIndex = (list, index) => {
 };
 
 console.log(GetNonRepeatedRandomIndex(elements, 1));
+//test

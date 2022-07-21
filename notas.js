@@ -1,3 +1,5 @@
+// W A R N I N G (the variable "x" used to represent the elements in each iteration should be prefixed with a hyphen under "_x" as in the last version) W A R N I N G
+
 //v1
 const GetNonRepeatedRandomIndex = (list, index) => {
   const indexes = Array(list.length).fill(0);
@@ -53,14 +55,7 @@ const GetNonRepeatedRandomIndex = (list, index) => {
 
 //v5
 const GetNonRepeatedRandomIndex = (list, index) => {
-  return list.map((x, i) => (x = i)).filter((x) => x != index)[
-    Math.floor(Math.random() * (list.length - 1))
-  ];
-};
-
-//v6
-const GetNonRepeatedRandomIndex = (list, index) => {
-  list.map((x, i) => (x = i)).filter((x) => x != index)[
+  return list.map((_x, i) => (_x = i)).filter((_x) => _x != index)[
     Math.floor(Math.random() * (list.length - 1))
   ];
 };

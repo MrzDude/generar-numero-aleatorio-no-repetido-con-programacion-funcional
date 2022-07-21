@@ -6,5 +6,4 @@ const GetNonRepeatedRandomIndex = (list, index) => {
   ];
 };
 
-setTimeout;
 console.log(GetNonRepeatedRandomIndex(elements, 1));

@@ -59,3 +59,5 @@ const GetNonRepeatedRandomIndex = (list, index) => {
     Math.floor(Math.random() * (list.length - 1))
   ];
 };
+
+// W A R N I N G (the variable "x" used to represent the elements in each iteration should be prefixed with a hyphen under "_x" as in the last version) W A R N I N G
